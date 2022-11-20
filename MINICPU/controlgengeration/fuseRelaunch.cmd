@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/MINICPU/controlgengeration/control_isim_beh.exe" -prj "C:/MINICPU/controlgengeration/control_beh.prj" "work.control" 

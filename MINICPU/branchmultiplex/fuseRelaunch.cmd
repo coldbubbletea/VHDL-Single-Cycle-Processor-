@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/MINICPU/branchmultiplex/branchmultiplex_isim_beh.exe" -prj "C:/MINICPU/branchmultiplex/branchmultiplex_beh.prj" "work.branchmultiplex" 

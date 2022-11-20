@@ -1,0 +1,28 @@
+Command line:
+   jumpshift_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56441
+
+Wed May 05 22:11:54 2021
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 5169.02 Meg
+
+ Total Signals          : 2
+ Total Nets             : 60
+ Total Signal Drivers   : 2
+ Total Blocks           : 4
+ Total Primitive Blocks : 4
+ Total Processes        : 2
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 438
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 5011.73 Meg
+
+Wed May 05 22:13:10 2021
+

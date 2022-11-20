@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/MINICPU/mulp/mulp_isim_beh.exe" -prj "C:/MINICPU/mulp/mulp_beh.prj" "work.mulp" 

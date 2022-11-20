@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/MINICPU/JAC/JAC.xst" -ofn "C:/MINICPU/JAC/JAC.syr" 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/MINICPU/signextend/signextend_isim_beh.exe" -prj "C:/MINICPU/signextend/signextend_beh.prj" "work.signextend" 

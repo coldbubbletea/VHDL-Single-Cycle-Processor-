@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/MINICPU/WRITE_DATA_M/WRITE_DATA_M_isim_beh.exe" -prj "C:/MINICPU/WRITE_DATA_M/WRITE_DATA_M_beh.prj" "work.WRITE_DATA_M" 

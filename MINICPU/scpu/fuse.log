@@ -1,0 +1,63 @@
+Running: D:\ISE\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/MINICPU/scpu/scpu_tb_isim_beh.exe -prj C:/MINICPU/scpu/scpu_tb_beh.prj work.scpu_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/MINICPU/scpu/WDATAM.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/SIL.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/signede.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/REGISITER3.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/RDM2.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/PCADD.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/PC1.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/JM.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/JAS.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/JAC.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/controlgeneration.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/CB.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/BRACADDER.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/BM.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/ALUM.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/alucontrol.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/alu.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/scpup.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/imem.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/dmem.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/scpu_top.vhd" into library work
+Parsing VHDL file "C:/MINICPU/scpu/tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture behavioral of entity programcounter_1 [programcounter_1_default]
+Compiling architecture behavioral of entity RDM_2 [rdm_2_default]
+Compiling architecture behavioral of entity rf_3 [rf_3_default]
+Compiling architecture behavioral of entity mulp_4 [mulp_4_default]
+Compiling architecture behavioral of entity ALU_5 [alu_5_default]
+Compiling architecture behavioral of entity WRITE_DATA_M_6 [write_data_m_6_default]
+Compiling architecture behavioral of entity signextend_7 [signextend_7_default]
+Compiling architecture behavioral of entity alucontrol_8 [alucontrol_8_default]
+Compiling architecture behavioral of entity control_9 [control_9_default]
+Compiling architecture behavioral of entity pcadd_10 [pcadd_10_default]
+Compiling architecture behavioral of entity shiftleft_11 [shiftleft_11_default]
+Compiling architecture behavioral of entity check_12 [check_12_default]
+Compiling architecture behavioral of entity branchadder_13 [branchadder_13_default]
+Compiling architecture behavioral of entity branchmultiplex_14 [branchmultiplex_14_default]
+Compiling architecture behavioral of entity JUMPMULTEX_15 [jumpmultex_15_default]
+Compiling architecture behavioral of entity jumpshift_16 [jumpshift_16_default]
+Compiling architecture behavioral of entity JAC_17 [jac_17_default]
+Compiling architecture behavioral of entity scpu [scpu_default]
+Compiling architecture imem_arch of entity imem [\imem("test01.asc")(1,10)\]
+Compiling architecture dmem_arch of entity dmem [dmem_default]
+Compiling architecture behavioral of entity scpu_top [scpu_top_default]
+Compiling architecture scpu_tb_arch of entity scpu_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 49 VHDL Units
+Built simulation executable C:/MINICPU/scpu/scpu_tb_isim_beh.exe
+Fuse Memory Usage: 38384 KB
+Fuse CPU Usage: 859 ms

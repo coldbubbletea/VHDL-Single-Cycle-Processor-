@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/MINICPU/jumpshift/jumpshift.xst" -ofn "C:/MINICPU/jumpshift/jumpshift.syr" 
+xst -intstyle ise -ifn "C:/MINICPU/jumpshift/jumpshift.xst" -ofn "C:/MINICPU/jumpshift/jumpshift.syr" 

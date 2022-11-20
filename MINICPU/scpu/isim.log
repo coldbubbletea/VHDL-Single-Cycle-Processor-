@@ -1,0 +1,33 @@
+ISim log file
+Running: C:\MINICPU\scpu\scpu_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/MINICPU/scpu/scpu_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /scpu_tb/scpu0/myscpu/mycontrol_3/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /scpu_tb/scpu0/myscpu/mycontrol_3/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /scpu_tb/scpu0/myscpu/mycontrol_3/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+instruction memory initializationFinished circuit initialization process.
+at 0 ps, Instance /scpu_tb/scpu0/myimem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /scpu_tb/scpu0/mydmem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# wave add /scpu_tb/scpu0/myscpu/mycontrol_3/reg_file(8)
+# wave add /scpu_tb/scpu0/myscpu/mycontrol_3/reg_file(9)
+# restart
+# run 2000ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /scpu_tb/scpu0/myscpu/mycontrol_3/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /scpu_tb/scpu0/myscpu/mycontrol_3/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+instruction memory initializationFinished circuit initialization process.
+at 0 ps, Instance /scpu_tb/scpu0/myimem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /scpu_tb/scpu0/mydmem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# run 2000ns
+# show value/scpu_tb/scpu0/myscpu/myalu5/R
+Incorrect usage of command 'show'
+Usage: show < time | port | scope | signal | variable | constant | <child [-r]> | <<driver|load|value> <hdl_object_name>> >
+for detailed help use 'help show'
+# show value /scpu_tb/scpu0/myscpu/myalu_5/R
+00000000000000000000000000000000
+The simulator has terminated in an unexpected manner.  Please review the ISim log (isim.log) for details.

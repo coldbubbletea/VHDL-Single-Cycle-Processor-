@@ -1,0 +1,28 @@
+Command line:
+   mulp_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64388
+
+Sun May 02 23:59:59 2021
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5169.04 Meg
+
+ Total Signals          : 4
+ Total Nets             : 97
+ Total Signal Drivers   : 1
+ Total Blocks           : 4
+ Total Primitive Blocks : 4
+ Total Processes        : 1
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 475
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 5011.75 Meg
+
+Mon May 03 00:01:01 2021
+

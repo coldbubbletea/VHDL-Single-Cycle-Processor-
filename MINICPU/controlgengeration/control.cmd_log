@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/MINICPU/controlgengeration/control.xst" -ofn "C:/MINICPU/controlgengeration/control.syr" 
+xst -intstyle ise -ifn "C:/MINICPU/controlgengeration/control.xst" -ofn "C:/MINICPU/controlgengeration/control.syr" 
+xst -intstyle ise -ifn "C:/MINICPU/controlgengeration/control.xst" -ofn "C:/MINICPU/controlgengeration/control.syr" 

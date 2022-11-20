@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/MINICPU/branchmultiplex/branchmultiplex.xst" -ofn "C:/MINICPU/branchmultiplex/branchmultiplex.syr" 
+xst -intstyle ise -ifn "C:/MINICPU/branchmultiplex/branchmultiplex.xst" -ofn "C:/MINICPU/branchmultiplex/branchmultiplex.syr" 

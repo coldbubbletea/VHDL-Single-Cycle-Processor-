@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/MINICPU/alucontrol/alucontrol_isim_beh.exe" -prj "C:/MINICPU/alucontrol/alucontrol_beh.prj" "work.alucontrol" 

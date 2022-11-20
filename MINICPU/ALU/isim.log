@@ -1,0 +1,24 @@
+ISim log file
+Running: C:\MINICPU\ALU\ALU_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/MINICPU/ALU/ALU_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /alu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+# restart
+# put aluop 010
+# put a 00100000011111111111000000000111
+# put b 01000000100000000000111111100000
+# run 10ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# put aluop 000
+# run 10ns
+# put aluop 100
+# run 10ns
+# put aluop 001
+# run 5ns

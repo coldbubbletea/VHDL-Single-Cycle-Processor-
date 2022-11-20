@@ -1,0 +1,26 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'alucontrol'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o alucontrol_map.ncd alucontrol.ngd alucontrol.pcf 
+Target Device  : xc7a100t
+Target Package : csg324
+Target Speed   : -3
+Mapper Version : artix7 -- $Revision: 1.55 $
+Mapped Date    : Tue May 04 22:12:42 2021
+
+WARNING:LIT:701 - PAD symbol "aluop<2>" has an undefined IOSTANDARD.
+WARNING:LIT:702 - PAD symbol "aluop<2>" is not constrained (LOC) to a specific
+   location.
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 13 secs 
+Total CPU  time at the beginning of Placer: 11 secs 

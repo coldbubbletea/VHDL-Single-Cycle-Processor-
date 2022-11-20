@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/MINICPU/jumpshift/jumpshift_isim_beh.exe" -prj "C:/MINICPU/jumpshift/jumpshift_beh.prj" "work.jumpshift" 

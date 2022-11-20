@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/MINICPU/scpu/scpu_tb_isim_beh.exe" -prj "C:/MINICPU/scpu/scpu_tb_beh.prj" "work.scpu_tb" 

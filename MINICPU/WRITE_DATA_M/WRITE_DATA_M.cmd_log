@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/MINICPU/WRITE_DATA_M/WRITE_DATA_M.xst" -ofn "C:/MINICPU/WRITE_DATA_M/WRITE_DATA_M.syr" 
